@@ -1,0 +1,299 @@
+*{
+    font-family: 'Abel';
+    text-decoration: none;
+   font-size: 1.01em;
+}
+
+/*General*/
+.logo{
+    width: 240px; 
+}
+.link{
+    color:#795548!important;
+    margin-right: 5px; 
+}
+ .remove-outline:focus {
+     outline:0;
+    }
+
+    .header-bg {
+        background-color: #00579e!important;
+        }
+    .primary-bg{
+        background:#a87037;
+        /* color:#000033 ; */
+    }
+    .secondary-bg{
+        background-color: rgb(243, 240, 240);
+    }
+    .banner {
+        height: 300px;
+        width: 100%;
+        /* display: block; */
+        /* padding: -10; */
+        background-image: linear-gradient(to right,#795548, #a87037);
+        background-position: center;
+        background-size: contain;
+        opacity: 0.9;
+        }
+    
+    svg{
+        vertical-align: middle;
+    }
+
+    .contact-bg{
+        width: 100%;
+        height: 300px;
+        background-image: url(../res/building2.jpg);
+        background-size: cover;
+        background-position: center; 
+        
+    }
+
+    .shade-bg{
+        height: 300px;
+        width: 100%;
+        background-image: linear-gradient(to right,#795548e7, #a86f37e0);
+    }
+
+    .contact-radius{
+        border-radius: 25px;
+    }
+
+    .img-size {
+        height: 300px;
+        width: 100%;
+        }
+    .img-hover:hover {
+        opacity: 0.6;
+        transition: 0.4s ease-in;
+        }
+
+.link-active, .link:hover{
+   background-color: #795548;
+    color:#fff!important;
+    border-radius: 5px;
+}
+
+.nlinks:hover{
+    color:#c6e301;
+}
+
+.car-img{
+    width: 100%;
+    height:700px;
+}
+.mmt{
+    margin-top: 30px;
+}
+.primary-text{
+    color:#a87037;
+}
+.s-color, .hover{
+    color: #008B75;
+}
+.green-border{
+ border: 5px solid #c6e301;
+}
+.g-border{
+ border: 1px solid #c6e301;
+}
+
+.mlinks{
+    color: black;
+}
+.mlinks:hover, .hover:hover{
+    color:#795548;
+    text-decoration: none;
+}
+
+.intro{
+    box-shadow: 1px 2px 10px #e5e5e5;
+}
+.item{
+    box-shadow: 1px 2px 10px #c5c4c4;
+    height: 140px;
+    margin-top: 10px;
+}
+.item:hover{
+   background-color: #795548;
+   color:#fff!important;
+   transition: ease 0.6s;
+}
+
+.secolor{
+    background-color: #ccfff7;
+    color:#008B75;
+    border-radius: 400px; 
+    padding: 14px 8px 14px 12px; 
+    font-size: 1.2em;
+    margin: 10px;
+}
+.gcolor{
+    background-image: linear-gradient(to right,#7b1111,#ff450d)
+}
+
+.login-card{
+  width: 350px;
+}
+
+/*END GENERAL*/
+
+/*send message*/
+.messenger{
+    background-color: #F4F4F4;
+    padding: 100px 0px;
+}
+.mbtn{
+    background-image: linear-gradient(to right,#795548, #a87037);
+}
+
+/*end send message*/
+
+
+/*team members*/
+.members{ 
+    border-left: 7px solid #c6e301;
+}
+.mem-img{
+    max-width: 400px;
+    max-height: 300px
+}
+
+/*end team members*/
+
+/*OUR clients*/
+.clients{
+    
+}
+.client-img{
+    width:200px;
+    margin: 5px auto;
+    
+}
+
+/*End OUR clients*/
+
+/*About us*/
+.bg-about{
+/*    padding: 35px 40px; */
+    background-image: linear-gradient(to right,#a87037, #795548);
+}
+
+.bg-blue{
+/*    padding: 35px 40px; */
+    background-image: linear-gradient(to right,#5b80fd, #43cfdb);
+}
+
+/*End About us*/
+
+
+/*BLogs*/
+.blog-item{
+/*    width: 400px;*/
+    margin: 0px;
+    
+}
+/*End BLogs*/
+
+
+/* End Category page css*/
+
+/*Gallery page*/
+.display{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.gallery{
+    width: 370px;
+    height: 400px;
+    padding: 0; 
+}
+.gallery img{
+    width: 100%;
+    height: 100%; 
+}
+/*End Gallery page*/
+
+
+
+/*side blog*/
+.side-blog{
+    width: 300px;
+    
+}
+.side-blog img{
+    width: 35%;
+    height: 70px;
+    
+}
+.side-blog p{
+    display: inline-block;
+    width: 60%;
+    font-weight: 600
+}
+
+/*End side blog*/
+
+
+
+
+/*footer*/
+.bg-footer{
+    background:#a87037;
+     color:#000033 
+}
+.social-media a, .location a{
+    text-decoration: none;
+    
+}
+
+.social-links, .location-links{
+    color:#a87037;
+    border-radius: 300px;
+    background-color: #2F363C;  
+    padding: 12px 9px 12px 11px; 
+    margin: 5px;
+    text-align: center;
+}
+.social-links:hover{
+    color: white
+}
+.f-links a{
+    color: #000033;
+}
+.f-links a:hover{
+    color:#00000c;
+}
+.f-about, .f-links{
+    margin-left: 10px;
+}
+.f-about p, .f-links a{
+    margin-left: 10px;
+}
+/*end footer*/
+
+
+
+
+/*MEDIA QUERIES*/
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    .car-img{ 
+        height:740px; 
+    }
+}
+
+/*
+@media only screen and (max-width:1536px){
+}
+*/
+
+@media only screen and (max-width:700px){
+    .car-img{ 
+    height:230px;
+}
+}
