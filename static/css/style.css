@@ -32,13 +32,23 @@
         /* display: block; */
         /* padding: -10; */
         background-image: linear-gradient(to right,#795548, #a87037);
+        background-size: cover;
         background-position: center;
-        background-size: contain;
         opacity: 0.9;
         }
     
     svg{
-        vertical-align: middle;
+        vertical-align: bottom;
+    }
+    .size {
+        height: 215px;
+        width: 100%;
+        }
+    @media only screen and (min-width: 1500px) {
+        .size {
+            height: 235px;
+            width: 100%;
+            }
     }
 
     .contact-bg{
