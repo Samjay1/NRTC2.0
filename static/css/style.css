@@ -49,6 +49,9 @@
             height: 235px;
             width: 100%;
             }
+            .contact-bg, .shade{
+                height: 200px;
+            }
     }
 
     .contact-bg{
