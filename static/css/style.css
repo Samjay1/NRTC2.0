@@ -49,9 +49,16 @@
             height: 235px;
             width: 100%;
             }
-            .contact-bg, .shade{
-                height: 200px;
-            }
+           
+    }
+    @media only screen and (max-width: 800px) {
+        .contact-bg, .shade{
+            height: 200px;
+        }
+        svg{
+            padding: 0;
+            margin-top: 21px;
+        }
     }
 
     .contact-bg{
